@@ -1,0 +1,140 @@
+@import url(/gombok.css);
+
+*{
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+
+}
+body{
+    background-color: white;
+    max-width: 700px;
+    margin: auto;
+}
+
+header{
+    display:grid;
+    grid-template-columns: 3fr .5fr .5fr .5fr .5fr .5fr;
+    align-items: center;
+}
+header img{
+    width: 250px;
+}
+main{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 700px;
+    padding: 20px;
+    margin-left: 50px;
+
+}
+.main_one{
+    display: grid;
+    grid-template-rows: .1fr .1fr .1fr .1fr .1fr;
+
+}
+.main_text{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.main_gombok{
+    display: grid;
+    grid-template-columns: .3fr .5fr;
+    margin-bottom: 20px;
+    padding: 15px;
+
+}
+
+.main_options{
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    font-size: 12px;
+    margin-left: 30px;
+}
+.main_options img{
+    width: 100px;
+}
+.main_one_pic img{
+    width: 400px;
+    padding: 20px;
+    margin-left: 10px;
+}
+.piccolo_one{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.main_two{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    grid-template-rows: 1.5fr 1fr;
+    margin-left: 50px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.main_two img{
+    width: 80px;
+    height: 80px;
+    border-style: solid;
+    border-color: rgb(23, 169, 150);
+    border-radius: 30%;
+    padding: 5px;
+}
+.piccolo_two{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.main_three{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 1.5fr 1fr;
+    margin-left: 80px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.main_three img{
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-color: rgb(23, 169, 150);
+    border-radius: 30%;
+    padding: 5px;
+}
+.piccolo_three{
+    margin-left: 300px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+footer{
+    background-color: rgb(23, 169, 150);
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 5%;
+    border-style: inset;
+    border-color: aquamarine;
+    height: 300px;
+}
+.footer_pic img{
+    width: 400px;
+    padding: 30px;
+
+}
+.footer_text{
+    padding: 30px;
+}
+footer ul{
+
+    width: 250px;
+    padding: 20px;
+    list-style: none;
+}
+footer li{
+    margin: 15px;
+    color: whitesmoke;
+}
+.fin{
+    text-align: center;
+    font-size: 10px;
+}
