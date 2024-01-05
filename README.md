@@ -1,1 +1,1 @@
-# Webprogramozas_beadandok
+Szépréthy Regina
