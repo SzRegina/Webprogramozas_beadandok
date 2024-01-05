@@ -1,0 +1,62 @@
+@import url(gombok.css);
+@import url(images.css);
+@import url(gridek.css);
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+html{
+    background-color: #fff;
+}
+
+body {
+    max-width: 1000px;
+    min-height: 100vh;
+    margin: auto;
+    background-color:ffff;
+    color: var(--text-color);
+    font-family: Inter;
+}
+h1{
+    text-align: center;
+
+}
+p{
+    text-align: center;
+}
+.center_images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+    align-items: center;
+    width:fit-content;
+    margin-bottom: 0;
+
+}
+.center_images p{
+    padding: 0;
+    margin: auto;
+    
+}
+.center_images img{
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    align-items: center;
+}
+
+.footer_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+.footer_grid img{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+}
+.fg_text{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    text-align: justify;
+}
